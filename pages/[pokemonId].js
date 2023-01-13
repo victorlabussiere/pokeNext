@@ -70,8 +70,8 @@ export default function pokemon({ pokemon }) {
                     })}
                 </div>
                 <div className={styles.pokemonInfos}>
-                    <h3>Peso: {pokemon.weight}</h3>
-                    <h3>Altura: {pokemon.height}</h3>
+                    <h3>Peso: {pokemon.weight / 10} kg</h3>
+                    <h3>Altura: {pokemon.height * 10} cm</h3>
                 </div>
 
 
