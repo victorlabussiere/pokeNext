@@ -66,7 +66,7 @@ export default function pokemon({ pokemon }) {
                 />
                 <div className={styles.typeArea}>
                     {pokemon.types.map(t => {
-                        return (<p className={styles.type}>{t.type.name}</p>)
+                        return (<p className={`${styles.type} ${styles['type_' + t.type.name]}`}>{t.type.name}</p>)
                     })}
                 </div>
                 <div className={styles.pokemonInfos}>
