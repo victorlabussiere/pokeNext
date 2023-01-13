@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    color: rgb(210, 210, 210);
+    background-color: #1a1a1a;
+    padding: 2rem;
+}
+
+.footer h2 a {
+    text-decoration: none;
+    font-style: none;
+    color: inherit;
+}
+
+.footer h2 a:hover {
+    color: #fdfdfd;
+}

@@ -1,0 +1,88 @@
+.pokemonCard {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-flow: 1 1 auto;
+    justify-content: center;
+    gap: 2rem;
+    width: fit-content;
+
+    padding: 2rem;
+    border-radius: 4px;
+
+    transition: .18s all ease-in-out;
+    background-color: #e2e2e2;
+}
+
+.pokemonCard:hover {
+    background-color: white;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    gap: 1rem;
+}
+
+.cardInfo .pokemonId {
+    background-color: #d11717;
+    border-radius: 8px;
+    vertical-align: middle;
+    text-align: center;
+    width: min-content;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.cardInfo .pokemonName {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.cardInfo .detailsButton {
+    padding: .4rem 4rem;
+    background-color: #232323;
+    color: #b6b6b6;
+    text-decoration: none;
+    font-style: none;
+    border-radius: .5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: .1s all ease-in-out;
+}
+
+.detailsButton:hover {
+    background-color: #e42424;
+    color: white;
+}
+
+.pokemonCard .span {
+    height: unset;
+    width: 1px;
+    background-color: #b6b6b6;
+}
+
+.cardInfo p span {
+    font-weight: bold;
+}
+
+.pokemonImage {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    align-self: center;
+
+    -webkit-filter: drop-shadow(0px 0px 4px #222222);
+    filter: drop-shadow(0px 0px 4px #2222227d);
+    max-width: 100px;
+    box-sizing: border-box;
+}
